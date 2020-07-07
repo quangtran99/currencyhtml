@@ -1,0 +1,66 @@
+#Conversion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: inherit;
+    
+}
+
+#Conversion h1 {
+    font-size: 1.5rem !important;
+    padding: 10px 10px;
+}
+
+#Conversion h2 {
+    font-size: 1rem !important;
+    padding: 10px 10px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    /* max-width: 100%; */
+}
+
+/* nav bar */
+.navbar-light{
+    background-color: transparent;
+}
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
+    right: 0;
+    left: 0;
+}
+    
+/* nav bar */
+.head-style {
+    height: 750px;
+    align-items: center;
+}
+.wrap {
+    font-size: 100px;
+    background-color: rgba(172, 171, 171, 0.5);
+    border-radius: 30px;
+
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: black !important;
+    transition: background-color 200ms linear;
+  }
+ 
+
+  body {
+    background: 
+      radial-gradient(black 3px, transparent 4px),
+      radial-gradient(black 3px, transparent 4px),
+      linear-gradient(#fff 4px, transparent 0),
+      linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+      linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
